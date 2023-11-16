@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.aplicativo.main.TelaHome;
+
 import java.util.Timer;
 import java.util.TimerTask;
 

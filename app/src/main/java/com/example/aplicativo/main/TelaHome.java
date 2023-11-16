@@ -1,4 +1,4 @@
-package com.example.aplicativo;
+package com.example.aplicativo.main;
 
 import android.os.Bundle;
 
@@ -8,7 +8,12 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.example.aplicativo.R;
 import com.example.aplicativo.databinding.ActivityMainBinding;
+import com.example.aplicativo.fragment.HomeFragment;
+import com.example.aplicativo.fragment.LoginFragment;
+import com.example.aplicativo.fragment.PlantaFragment;
+import com.example.aplicativo.fragment.RelatorioFragment;
 
 public class TelaHome extends AppCompatActivity {
 
@@ -34,7 +39,7 @@ public class TelaHome extends AppCompatActivity {
                     this.replaceFragment(new PlantaFragment());
                     break;
                 case R.id.profile:
-                    this.replaceFragment(new ProfileFragment());
+                    this.replaceFragment(new LoginFragment());
                     break;
 
             }
